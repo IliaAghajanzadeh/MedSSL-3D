@@ -1,0 +1,91 @@
+{
+  "timestamp": "2026-09-05T00:35:28",
+  "split": "val",
+  "tol": 1e-06,
+  "deltas": [
+    {
+      "arm": "ssl_norm",
+      "seed": 42,
+      "d_dice": 0.0,
+      "cm_match": true,
+      "status": "OK"
+    },
+    {
+      "arm": "ssl_norm",
+      "seed": 123,
+      "d_dice": 0.0,
+      "cm_match": true,
+      "status": "OK"
+    },
+    {
+      "arm": "ssl_norm",
+      "seed": 2024,
+      "d_dice": 0.0,
+      "cm_match": true,
+      "status": "OK"
+    },
+    {
+      "arm": "ssl_raw",
+      "seed": 42,
+      "d_dice": 0.0,
+      "cm_match": true,
+      "status": "OK"
+    },
+    {
+      "arm": "ssl_raw",
+      "seed": 123,
+      "d_dice": 0.0,
+      "cm_match": true,
+      "status": "OK"
+    },
+    {
+      "arm": "ssl_raw",
+      "seed": 2024,
+      "d_dice": 0.0,
+      "cm_match": true,
+      "status": "OK"
+    },
+    {
+      "arm": "scratch_norm",
+      "seed": 42,
+      "d_dice": 0.0,
+      "cm_match": true,
+      "status": "OK"
+    },
+    {
+      "arm": "scratch_norm",
+      "seed": 123,
+      "d_dice": 0.0,
+      "cm_match": true,
+      "status": "OK"
+    },
+    {
+      "arm": "scratch_norm",
+      "seed": 2024,
+      "d_dice": 0.0,
+      "cm_match": true,
+      "status": "OK"
+    },
+    {
+      "arm": "scratch_raw",
+      "seed": 42,
+      "d_dice": 0.0,
+      "cm_match": true,
+      "status": "OK"
+    },
+    {
+      "arm": "scratch_raw",
+      "seed": 123,
+      "d_dice": 0.0,
+      "cm_match": true,
+      "status": "OK"
+    },
+    {
+      "arm": "scratch_raw",
+      "seed": 2024,
+      "d_dice": 0.0,
+      "cm_match": true,
+      "status": "OK"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+metric,value
+accuracy,0.8
+f1,0.8674698795180722
+majority_baseline,0.7636363636363637
+signal,🟢 GREEN — Probe > Baseline

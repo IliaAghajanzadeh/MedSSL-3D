@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-09-05T01:08:23",
+  "one_shot": true,
+  "split": "test",
+  "n_test": 55,
+  "n_runs": 12,
+  "thresholds_frozen_sha256": "c2e9f58f3ddbaa62e8d29ae0cc37a21ff0652ce195c4831e588b42fb77f5e6e4",
+  "thresholds_frozen_path": "D:/MedSSL/MedSSL_Results_v2\\outputs\\v0_11\\v0_11_thresholds_frozen.json",
+  "checkpoint_sha256": {
+    "ssl_norm|42": "95a5a261e5051f529219199962de9ff0e5b3dec5ea4e9e2eeecd792d13297092",
+    "ssl_norm|123": "a9c4ae1bcc92b6a3073670d636e8fec9fbc1959f3b4d1668a166db13d3201bc5",
+    "ssl_norm|2024": "fd2adf3eb188eca89b1f220c189640cea869344e13ab2f77304049e2b5303f1f",
+    "ssl_raw|42": "ff4a97dbc1b078b1c00508a7798f60f5767bc4e4bcab291908f26575d52f399e",
+    "ssl_raw|123": "617a72010f5721501bce5bd37932a9f29ee90655976718d21102473a669f84d0",
+    "ssl_raw|2024": "a7ac5090f6980a40365a659fa19254e071ca09b6b35ae758b94367a7b0b06b53",
+    "scratch_norm|42": "95a2d7ee0915c2f85c6404882e1aadb54fb52b26a1b21d1cddbee8cf533602db",
+    "scratch_norm|123": "92acd14d52f2d772db41c0a8b16afb08435833efad012720e9465b4329f3497f",
+    "scratch_norm|2024": "bc9de6f26af5e2f130a703cc5db60bfc6b03a46bf6a4439f71d6e2f0f8ffdf46",
+    "scratch_raw|42": "79f38b47c52fcfe16e9e16ac748f515f66fb4c3724ee4558d330d864639d3097",
+    "scratch_raw|123": "715e95de951a19e368bc9bbce3ef224d03e2a1eed2425d0d17738c0958ce94a3",
+    "scratch_raw|2024": "dce7baa1642bf86ee1b34758893f001c76c8968a9e9abc3f62561755c54f5de7"
+  },
+  "per_patient_csv_sha256": "9d83b5f2a1da83af3eaaf7f8cb7b3913a6e43a3ab0091c48f9eb7cdb4db77085",
+  "report_csv_sha256": "40f5dac36ff5f0cfc857e26f9cdba8c17b6b93e3dab95870a09ceb94c6c25781",
+  "preceding_rehearsal": {
+    "timestamp": "2026-09-05T00:35:28",
+    "split": "val",
+    "tol": 1e-06,
+    "deltas": [
+      {
+        "arm": "ssl_norm",
+        "seed": 42,
+        "d_dice": 0.0,
+        "cm_match": true,
+        "status": "OK"
+      },
+      {
+        "arm": "ssl_norm",
+        "seed": 123,
+        "d_dice": 0.0,
+        "cm_match": true,
+        "status": "OK"
+      },
+      {
+        "arm": "ssl_norm",
+        "seed": 2024,
+        "d_dice": 0.0,
+        "cm_match": true,
+        "status": "OK"
+      },
+      {
+        "arm": "ssl_raw",
+        "seed": 42,
+        "d_dice": 0.0,
+        "cm_match": true,
+        "status": "OK"
+      },
+      {
+        "arm": "ssl_raw",
+        "seed": 123,
+        "d_dice": 0.0,
+        "cm_match": true,
+        "status": "OK"
+      },
+      {
+        "arm": "ssl_raw",
+        "seed": 2024,
+        "d_dice": 0.0,
+        "cm_match": true,
+        "status": "OK"
+      },
+      {
+        "arm": "scratch_norm",
+        "seed": 42,
+        "d_dice": 0.0,
+        "cm_match": true,
+        "status": "OK"
+      },
+      {
+        "arm": "scratch_norm",
+        "seed": 123,
+        "d_dice": 0.0,
+        "cm_match": true,
+        "status": "OK"
+      },
+      {
+        "arm": "scratch_norm",
+        "seed": 2024,
+        "d_dice": 0.0,
+        "cm_match": true,
+        "status": "OK"
+      },
+      {
+        "arm": "scratch_raw",
+        "seed": 42,
+        "d_dice": 0.0,
+        "cm_match": true,
+        "status": "OK"
+      },
+      {
+        "arm": "scratch_raw",
+        "seed": 123,
+        "d_dice": 0.0,
+        "cm_match": true,
+        "status": "OK"
+      },
+      {
+        "arm": "scratch_raw",
+        "seed": 2024,
+        "d_dice": 0.0,
+        "cm_match": true,
+        "status": "OK"
+      }
+    ]
+  },
+  "bootstrap_iters": 10000,
+  "bootstrap_seed": 20260904,
+  "torch_version": "2.7.1+cu118",
+  "monai_version": "1.4.0"
+}

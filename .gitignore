@@ -1,0 +1,9 @@
+*.pth
+*.pt
+*.nii
+*.nii.gz
+MICCAI_BraTS2020_TrainingData/
+__pycache__/
+.ipynb_checkpoints/
+paper/F*.png
+paper/F*.pdf

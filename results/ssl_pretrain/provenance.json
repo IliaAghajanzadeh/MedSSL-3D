@@ -1,0 +1,49 @@
+{
+  "created_utc": "2026-08-28T02:47:24Z",
+  "code_version": "v0.11 Part A",
+  "source_file": "D:\\MedSSL\\medssl_v0_11_partA_simclr_v2",
+  "source_file_sha256": "c93e8bf06510142b7a035ea4b3d6bf00674479e0bd01311ed59e39ca522b677d",
+  "source_hash_method": "bytecode",
+  "frozen_fn_bytecode_sha256": {
+    "ResNet3D.forward": "3cd1058f24b04daffabcfe9f97b7b68bece452c90d3fc919518822676f85021d",
+    "SimCLR3D.forward": "599418545a9cf9607dfbb5ba5524d5dce122320bca33965553347daaf9788718",
+    "nt_xent_loss": "1b303ff1d6fd0ac88a112ff2c4ca3503f4caf1cb6e54e96e32bc8c1565281609",
+    "build_base_transform": "5522f986b67288d598a60a3ba495138c1f146589efdf814fec9aabe5eba29369",
+    "build_augmentation_pipeline": "133cd56c8561bf10d6f64d6e844550edfe281bbae30e40d322bf6418f9c62f41",
+    "train_one_epoch_simclr": "e5bba7cd1ea9d5eb42ccb620fd1276c18c769f918edcd0762feedf5e1ae40ac3"
+  },
+  "uses_annotations": false,
+  "mode": "simclr_v2",
+  "data_root": "D:/MedSSL/MICCAI_BraTS2020_TrainingData",
+  "n_train_patients": 258,
+  "n_val_patients": 55,
+  "n_test_patients": 55,
+  "train_id_sha256": "f84bfa95b09c863ff3fb97ece7f901f2370941a78c6d273f4968eb4c36040aa7",
+  "in_channels": 4,
+  "modality_order": [
+    "flair",
+    "t1",
+    "t1ce",
+    "t2"
+  ],
+  "num_epochs": 100,
+  "batch_size": 8,
+  "lr": 0.0001,
+  "temperature": 0.5,
+  "projection_dim": 128,
+  "seed": 42,
+  "amp": true,
+  "img_size": [
+    128,
+    128,
+    64
+  ],
+  "final_loss": 0.9274709856871403,
+  "best_loss": 0.9196871257189548,
+  "best_epoch": 93,
+  "encoder_sha256": "bd773813bd424360bcd28fa2c7c4a81b6ab82001fd7dbf1caf14ef5f3b78413e",
+  "wallclock_seconds": 18096.562173843384,
+  "torch_version": "2.7.1+cu118",
+  "monai_version": "1.4.0",
+  "smoke_test": false
+}

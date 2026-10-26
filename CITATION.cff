@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this code or these results, please cite the paper."
+title: "Measure First, Train Second: Four Failure Modes and a Controlled Factorial Study of Preprocessing versus Self-Supervised Pretraining in 3D Brain Tumour Segmentation"
+authors:
+  - family-names: Aghajanzadeh
+    given-names: Ilia
+    affiliation: "Department of Computer Engineering, Arak University"
+  - family-names: Sepahvand
+    given-names: Majid
+    affiliation: "Department of Computer Engineering, Arak University"
+repository-code: "https://github.com/IliaAghajanzadeh/MedSSL-3D"
+license: MIT

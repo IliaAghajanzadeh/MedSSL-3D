@@ -1,0 +1,11 @@
+# Direct dependencies, pinned to the versions the experiment ran with.
+# Install PyTorch first (CUDA 11.8 build):
+#   pip install torch==2.7.1 --index-url https://download.pytorch.org/whl/cu118
+torch==2.7.1
+monai==1.4.0
+nibabel==5.4.2
+numpy==1.26.4
+scipy==1.15.3
+matplotlib==3.10.9
+tqdm==4.68.3
+pillow==12.3.0
