@@ -153,6 +153,7 @@ No GPU and no data are needed:
 ```bash
 python tools/check_hashes.py .      # expect: ALL CHECKS PASSED
 python paper/verify.py results      # expect: 66 + 76 checks pass, 0 fail
+python paper/verify_extra.py results   # paired Wilcoxon tests and the per-patient losses
 ```
 
 `check_hashes.py` compares four result files with the SHA-256 values the pipeline wrote into
