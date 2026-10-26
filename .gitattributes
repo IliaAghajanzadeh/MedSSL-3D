@@ -1,0 +1,2 @@
+# Keep every file byte-identical: the recorded SHA-256 values depend on the exact bytes.
+* -text
